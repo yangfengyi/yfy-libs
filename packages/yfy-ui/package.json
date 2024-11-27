@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@yfy/hooks": "workspace:^"
-  }
+    "@yfy/hooks": "^1.2.0"
+  },
+  "gitHead": "354cd35eac763b59f7143ae19ed0bb88cc3067fb"
 }
