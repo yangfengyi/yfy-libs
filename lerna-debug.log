@@ -1,0 +1,33 @@
+72 error Error: Command failed with exit code 1: pnpm install --lockfile-only --ignore-scripts
+72 error Scope: all 4 workspace projects
+72 error  WARN  `node_modules` is present. Lockfile only installation will make it out-of-date
+72 error Progress: resolved 0, reused 1, downloaded 0, added 0
+72 error Progress: resolved 1, reused 1, downloaded 0, added 0
+72 error  WARN  GET http://localhost:4873/@yfy%2Fhooks error (ERR_SOCKET_TIMEOUT). Will retry in 10 seconds. 2 retries left.
+72 error Progress: resolved 1, reused 2, downloaded 0, added 0
+72 error Progress: resolved 485, reused 485, downloaded 0, added 0
+72 error Progress: resolved 492, reused 486, downloaded 0, added 0
+72 error  WARN  GET http://localhost:4873/@nx%2Fnx-darwin-arm64 error (ERR_SOCKET_TIMEOUT). Will retry in 10 seconds. 2 retries left.
+72 error  WARN  GET http://localhost:4873/@nx%2Fnx-linux-x64-musl error (ERR_SOCKET_TIMEOUT). Will retry in 10 seconds. 2 retries left.
+72 error  WARN  GET http://localhost:4873/@nx%2Fnx-linux-arm-gnueabihf error (ERR_SOCKET_TIMEOUT). Will retry in 10 seconds. 2 retries left.
+72 error  WARN  GET http://localhost:4873/@nx%2Fnx-win32-arm64-msvc error (ERR_SOCKET_TIMEOUT). Will retry in 10 seconds. 2 retries left.
+72 error  WARN  GET http://localhost:4873/graceful-fs error (ERR_SOCKET_TIMEOUT). Will retry in 10 seconds. 2 retries left.
+72 error  WARN  GET http://localhost:4873/encoding error (ERR_SOCKET_TIMEOUT). Will retry in 10 seconds. 2 retries left.
+72 error  WARN  GET http://localhost:4873/@pkgjs%2Fparseargs error (ERR_SOCKET_TIMEOUT). Will retry in 10 seconds. 2 retries left.
+72 error Progress: resolved 492, reused 487, downloaded 0, added 0
+72 error  ERR_PNPM_FETCH_404  GET http://localhost:4873/strip-ansi: Not Found - 404
+72 error
+72 error This error happened while installing the dependencies of lerna@8.1.9
+72 error  at @npmcli/package-json@5.2.0
+72 error  at glob@10.4.5
+72 error  at jackspeak@3.4.3
+72 error  at @isaacs/cliui@8.0.2
+72 error
+72 error strip-ansi is not in the npm registry, or you have no permission to fetch it.
+72 error
+72 error An authorization header was used: Bearer ZTA5[hidden]
+72 error     at makeError (/Users/yangfengyi/Dev/codeStation/course-code/yfy-libs/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
+72 error     at handlePromise (/Users/yangfengyi/Dev/codeStation/course-code/yfy-libs/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
+72 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+72 error     at async VersionCommand.updatePackageVersions (/Users/yangfengyi/Dev/codeStation/course-code/yfy-libs/node_modules/.pnpm/lerna@8.1.9/node_modules/lerna/dist/index.js:9866:11)
+72 error     at async Promise.all (index 0)
