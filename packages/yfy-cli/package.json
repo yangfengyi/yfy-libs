@@ -1,15 +1,12 @@
 {
-  "name": "yfy-libs",
+  "name": "@yfy/cli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "publish": "lerna publish"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "lerna": "^8.1.9"
-  }
+  "license": "ISC"
 }
