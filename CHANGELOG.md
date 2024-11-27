@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/yangfengyi/yfy-libs/compare/v1.2.0...v1.4.0) (2024-11-27)
+
+
+### Features
+
+* update ([4ce5832](https://github.com/yangfengyi/yfy-libs/commit/4ce58328853916ccd83d3700d2fa264d3ee39843))
+* update ([67f385f](https://github.com/yangfengyi/yfy-libs/commit/67f385fda8a462fe0e024ef6471fd1f5e945f72e))
+
+
+
+
+
 # [1.3.0](https://github.com/yangfengyi/yfy-libs/compare/v1.2.0...v1.3.0) (2024-11-27)
 
 

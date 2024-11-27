@@ -19,7 +19,7 @@ importers:
   packages/yfy-ui:
     dependencies:
       '@yfy/hooks':
-        specifier: workspace:^
+        specifier: ^1.4.0
         version: link:../yfy-hooks
 
 packages:
