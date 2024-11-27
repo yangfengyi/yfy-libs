@@ -12,6 +12,8 @@ importers:
         specifier: ^8.1.9
         version: 8.1.9
 
+  packages/yfy-cli: {}
+
   packages/yfy-hooks: {}
 
   packages/yfy-ui:
