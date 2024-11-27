@@ -1,0 +1,15 @@
+{
+  "name": "@yfy/ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@yfy/hooks": "workspace:^"
+  }
+}
